@@ -38,7 +38,7 @@ public class CarnivalProblem {
      * @param startingNodeName
      * @return
      */
-    protected static Collection<Arc> findUsableArcsSortedByLengthDescending(AntImp ant, String startingNodeName) {
+    protected static Collection<Arc> findUsableArcsSortedByLengthAscending(AntImp ant, String startingNodeName) {
 //        Comparator<Arc> lengthComparator = (a1, a2) -> {
 //            if (a1.getDistance() < a2.getDistance())
 //                return a2.getDistance();
